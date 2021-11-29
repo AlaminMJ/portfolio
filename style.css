@@ -159,9 +159,6 @@ main {
   object-fit: cover;
 }
 /* About */
-.about {
-  padding: 40px;
-}
 
 .about .wraper {
   display: flex;
@@ -358,14 +355,14 @@ main {
   main {
     margin: 0;
   }
+  #contact {
+  padding-bottom: 60px;
+}
   .aside-bar ul {
     width: 100%;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-  }
-  .contact {
-    margin-bottom: 200px;
   }
 }
