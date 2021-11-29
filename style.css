@@ -18,9 +18,9 @@ button {
   font-family: "Spartan", sans-serif;
 }
 .title {
-  font-size: 40px;
+  font-size: 35px;
   color: #333;
-  font-weight: 600;
+  font-weight: 500;
   text-align: center;
   margin-bottom: 40px;
 }
@@ -254,7 +254,46 @@ main {
   background-color: royalblue;
 }
 /* project */
-
+.projects .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.projects .content .card {
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  border-radius: 5px;
+}
+.projects .content .card .img {
+  height: 240px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.projects .content .card img {
+  object-fit: cover;
+  object-position: 0 0;
+  transition: 0.3s;
+}
+.projects .content .card img:hover {
+  transform: scale(1.03);
+}
+.projects .content .card a {
+  padding: 7px 15px;
+  text-decoration: none;
+  border: none;
+  background-color: royalblue;
+  color: #fff;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 14px;
+  z-index: 5;
+}
+.projects .content .card a:hover {
+    background-color: #2352e0;
+    
+}
 /* Contact */
 
 .contact .warper {
@@ -355,9 +394,16 @@ main {
   main {
     margin: 0;
   }
+  /* projects */
+  .projects .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* contact */
   #contact {
-  padding-bottom: 60px;
-}
+    padding-bottom: 60px;
+  }
+  /* sidebar */
   .aside-bar ul {
     width: 100%;
     align-items: center;
