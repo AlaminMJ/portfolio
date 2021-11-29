@@ -27,7 +27,7 @@ img {
   margin: auto;
 }
 section {
-  padding: 2rem 0;
+  padding: 2rem 10px;
 }
 .aside-bar {
   background-color: #fff;
@@ -87,6 +87,7 @@ main {
   justify-content: center;
   height: 100vh;
   width: 100%;
+  text-align: center;
 }
 .social-link {
   font-size: 25px;
@@ -309,4 +310,28 @@ main {
 }
 .contact .warper form button:hover {
   transform: scale(0.95);
+}
+
+/* Responsive */
+@media screen and (max-width: 678px) {
+  .home .content .name {
+    font-size: 25px;
+  }
+  .about .wraper .content {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .about img {
+    transform: scale(0.8);
+  }
+  .about .wraper {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .contact .warper {
+    display: block;
+  }
+  .contact .warper form {
+    margin-top: 20px;
+  }
 }
