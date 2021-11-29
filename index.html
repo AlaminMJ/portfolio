@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Protfolio</title>
+  </head>
+  <body>
+    <aside class="aside-bar">
+      <div class="logo"><i class="bx bx-code-alt"></i></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home" class="active"
+              ><i class="icon bx bx-home-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#about"><i class="icon bx bx-user-check"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon bx bx-briefcase"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon bx bxs-graduation"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="icon bx bx-layer"></i></a>
+          </li>
+          <li>
+            <a href="#contact"
+              ><i class="icon bx bx-message-square-dots"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="copy">copy</div>
+    </aside>
+
+    <main>
+      <section class="home" id="home">
+        <div class="content">
+          <div class="img">
+            <img src="./images/profile.jpg" alt="img" />
+          </div>
+          <h2 class="name">MD: Al-Amin Hossain</h2>
+          <h4 class="title">I'm a frontend developer</h4>
+          <div class="social">
+            <a href=""><i class="social-link bx bxl-github"></i></a>
+            <a href=""><i class="social-link bx bxl-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100011637936600"
+              ><i class="social-link bx bxl-facebook"></i
+            ></a>
+          </div>
+          <div class="resume">
+            <a href="./resume/resume.pdf" download
+              ><i class="download-icon bx bx-download"></i> Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="container">
+          <h2 class="title">About Me</h2>
+          <div class="wraper">
+            <div class="img"><img src="./images/profile.jpg" alt="img" /></div>
+
+            <div class="content">
+              <div class="left">
+                <p>
+                  I am Al-Amin, web developer from Dhamrai, Bangladesh. I have
+                  rich experience in web site design and building and
+                  customization, also I have complite many interactive website.
+                </p>
+                <a href="#contact" class="hire-btn">Hire Me</a>
+              </div>
+              <div class="right">
+                <ul>
+                  <li>
+                    <div class="skill">
+                      <p class="name">React</p>
+                      <p class="number">80%</p>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="skill">
+                      <p class="name">Express</p>
+                      <p class="number">60%</p>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="skill">
+                      <p class="name">MongoDB</p>
+                      <p class="number">70%</p>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="skill">
+                      <p class="name">Javascript</p>
+                      <p class="number">80%</p>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="skill">
+                      <p class="name">CSS </p>
+                      <p class="number">90%</p>
+                    </div>
+                    <div class="progress-bar">
+                      <div class="progress"></div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section><div class="container"></div></section>
+      <section><div class="container"></div></section>
+      <!-- Contact -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="title">Contact Me</div>
+          <div class="warper">
+            <div class="left">
+              <img src="./images/contact.svg" alt="" />
+            </div>
+            <div class="right">
+              <form action="">
+                <div class="form-group">
+                  <input type="text" placeholder="Your Name" />
+                  <input type="email" placeholder="Email" />
+                </div>
+                <input type="text" placeholder="Subject" />
+                <textarea
+                  id=""
+                  cols="30"
+                  rows="5"
+                  placeholder="Message"
+                ></textarea>
+                <button>Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
